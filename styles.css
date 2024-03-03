@@ -1,0 +1,62 @@
+body {
+    font-family: 'Helvetica', sans-serif;
+    margin: 20px;
+    background-color: #b3cecc; /* Couleur de fond gris clair */
+}
+
+#shopping-cart {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.cart-item img {
+    max-width: 60px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.heart-btn {
+    cursor: pointer;
+    font-size: 18px;
+    color: #333;
+}
+
+.heart-btn.liked {
+    color: rgb(216, 117, 210);
+}
+
+.quantity-btn {
+    background-color: hsl(165, 52%, 75%);
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.delete-btn {
+    background-color: #ff6347; /* Couleur de tomate pour le bouton de suppression */
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.total-price {
+    margin-top: 35px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: right;
+    color: #11042b;
+}
+  
